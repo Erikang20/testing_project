@@ -1,3 +1,8 @@
 test:
   override:
     - mocha ./test.js
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: testing-testing-app
