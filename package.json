@@ -1,0 +1,20 @@
+{
+  "name": "19week",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erikang20/testing_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erikang20/testing_project/issues"
+  },
+  "homepage": "https://github.com/Erikang20/testing_project#readme"
+}
