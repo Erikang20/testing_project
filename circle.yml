@@ -5,4 +5,4 @@ deployment:
   staging:
     branch: master
     heroku:
-      appname: testing-testing-app
+      appname: aqueous-sierra-86717
