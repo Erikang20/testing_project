@@ -1,24 +1,33 @@
 {
-  "name": "19week",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "mocha": "^3.0.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Erikang20/testing_project.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Erikang20/testing_project/issues"
-  },
-  "homepage": "https://github.com/Erikang20/testing_project#readme",
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.0.2"
-  }
+	"name": "19week",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo\"chai\"",
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"chai": "^3.5.0",
+		"eslint": "^3.1.0",
+		"eslint-watch": "^2.1.13",
+		"mocha": "^2.5.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Erikang20/testing_project.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Erikang20/testing_project/issues"
+	},
+	"homepage": "https://github.com/Erikang20/testing_project#readme",
+	"dependencies": {
+		"mocha": "^3.0.2"
+	},
+	"devDependencies": {
+		"mocha": "^3.0.2"
+	}
 }
