@@ -3,7 +3,7 @@ var path = require( 'path' );
 var bodyParser = require( 'body-parser' );
 var logger = require( 'morgan' );
 var favicon = require( 'serve-favicon' );
-
+var methodOverride = require( 'method-override' );
 var routes = require( './routes/index' );
 var app = express();
 
@@ -16,8 +16,10 @@ app.use( bodyParser.json() );
 app.use( bodyParser.urlencoded( {
     extended: false
 } ) );
+app.use( methodOverride( '_method' ) );
 
-app.use( './', routes );
+
+app.use( '/', routes );
 
 app.get( '/', function ( req, res ) {
     res.render( 'index' )
