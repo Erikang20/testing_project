@@ -7,13 +7,3 @@ describe( 'testing connection', function () {
     } );
 
 } );
-
-describe( 'GET /', function () {
-    it( 'should 'function ( done ) {
-        request.get( '/index' ).expect( 200 )
-            .end( function ( err, res ) {
-                if ( err ) return done( err )
-                done();
-            } );
-    } );
-} );
