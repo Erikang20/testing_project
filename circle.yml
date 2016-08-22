@@ -1,5 +1,3 @@
 test:
   override:
-    -mocha ./app/test.js
-
-    script: npm run test
+    -mocha ./test.js
